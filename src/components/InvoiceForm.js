@@ -83,9 +83,9 @@ class InvoiceForm extends React.Component {
     var subTotal = 0;
     console.log("items", items);
     items.map(function (items) {
-      subTotal = parseFloat(
-        subTotal + parseFloat(items.price).toFixed(2) * parseInt(items.quantity)
-      ).toFixed(2);
+      subTotal =
+        subTotal +
+        parseFloat(items.price).toFixed(2) * parseInt(items.quantity);
     });
     console.log("subTotal", subTotal);
     this.setState(

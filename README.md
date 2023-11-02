@@ -6,6 +6,7 @@ An Invoice creator project built with React. Add itemized items, configure quant
 
 ### Live Demo
 
+[Live Demo](https://prismatic-macaron-16ed9e.netlify.app/)
 
 ### Screenshots
 ![1](https://user-images.githubusercontent.com/62543734/233536948-69acd77f-9c4f-44e6-8a7a-e19c57e839a3.jpg)
